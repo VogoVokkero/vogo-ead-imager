@@ -19,7 +19,7 @@ ApplicationWindow {
     minimumWidth: imageWriter.isEmbeddedMode() ? -1 : 680
     minimumHeight: imageWriter.isEmbeddedMode() ? -1 : 420
 
-    title: qsTr("Raspberry Pi Imager v%1").arg(imageWriter.constantVersion())
+    title: qsTr("Vokkero Automation Device Imager v%1").arg(imageWriter.constantVersion())
 
     FontLoader {id: roboto;      source: "fonts/Roboto-Regular.ttf"}
     FontLoader {id: robotoLight; source: "fonts/Roboto-Light.ttf"}
@@ -89,7 +89,7 @@ ApplicationWindow {
         }
 
         Rectangle {
-            color: "#cd2355"
+            color: "#6a94d4"
             implicitWidth: window.width
             implicitHeight: window.height * (1 - 1/4)
 

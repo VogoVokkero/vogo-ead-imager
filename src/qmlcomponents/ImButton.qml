@@ -12,7 +12,7 @@ Button {
     font.family: roboto.name
     font.capitalization: Font.AllUppercase
     Material.background: activeFocus ? "#d1dcfb" : "#ffffff"
-    Material.foreground: "#cd2355"
+    Material.foreground: "##3d78d1"
     Material.roundedScale: Material.ExtraSmallScale
     Accessible.onPressAction: clicked()
     Keys.onEnterPressed: clicked()
